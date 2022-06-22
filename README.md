@@ -1,5 +1,8 @@
 ## Prerequisites
-cargo install --git https://github.com/paritytech/cargo-contract.git --rev 23f62e93a398750d4bd6e8f34ba1100c395ec72a  --force
+
+```bash
+cargo install --git https://github.com/paritytech/cargo-contract.git --rev 23f62e93a398750d4bd6e8f34ba1100c395ec72a --force
+```
 
 ## Reproduce
 
