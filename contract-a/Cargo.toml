@@ -16,8 +16,6 @@ ink_lang_codegen = { version = "=3.2.0", default-features = false }
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
 
-# contract_b = { path = "../contract-b", default-features = false, features = ["ink-as-dependency"] }
-
 [lib]
 name = "contract_a"
 path = "lib.rs"
@@ -36,6 +34,5 @@ std = [
     "ink_lang_codegen/std",
     "scale/std",
     "scale-info/std",
-    "contract_b/std"
 ]
 ink-as-dependency = []
