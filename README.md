@@ -1,0 +1,3 @@
+# Reproduce
+
+cargo contract check
